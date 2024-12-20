@@ -1,0 +1,35 @@
+{
+  "name": "take-home-coding",
+  "version": "1.0.0",
+  "description": "Movie List ",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc && nodemon dist/index.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshalpatel/take-home-coding.git"
+  },
+  "author": "Abhinav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshalpatel/take-home-coding/issues"
+  },
+  "homepage": "https://github.com/harshalpatel/take-home-coding#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
